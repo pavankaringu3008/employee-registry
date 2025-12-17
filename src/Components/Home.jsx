@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { FcRegisteredTrademark } from "react-icons/fc";
 
 const Home = () => {
   let [details, setDetails] = useState(null);
@@ -24,7 +25,7 @@ const Home = () => {
     <section id="home_page">
 
       <nav className="navbar">
-        <h1 className="logo">Employee Registry</h1>
+        <h1 className="logo">Employee Registry <FcRegisteredTrademark /></h1>
         <button
           className="nav_btn"
           onClick={() => navigate("/create-employee")}
