@@ -1,12 +1,19 @@
-# React + Vite
+Project Title: Employee Registry Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview: A full-stack React application designed to manage employee records efficiently. The application features a modern UI, image handling capabilities, and full CRUD functionality, allowing users to register new employees, view profiles, update existing information, and manage the workforce database in real-time.
 
-Currently, two official plugins are available:
+Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-> Full CRUD Lifecycle: Create, Read, Update, and Delete employee records.
 
-## Expanding the ESLint configuration
+-> Form Management: Utilizes Formik for robust form handling and state management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> Dynamic Routing: Implements React Router DOM for seamless navigation between Home, Create, View, and Update pages.
+
+-> Image Processing: Supports profile photo uploads using the FileReader API to convert images into Base64 strings for storage.
+
+-> Real-time Feedback: Integrated React-Toastify for interactive user notifications upon successful actions.
+
+-> RESTful API Integration: Uses Axios to communicate with a backend server (running on localhost:3000).
+Tech Stack:
+React.js, HTML5, CSS3.
